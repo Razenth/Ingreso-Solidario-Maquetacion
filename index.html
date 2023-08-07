@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Ingreso Solidario</title>
+</head>
+<body>
+    <main class="container-general">
+      <!-- BARRA DE NAVEGACIÓN -->
+      <nav class="barra-navegacion">
+        <ul class="container-barra">
+          <li><a href="#consulta">Inicio</a> </li>
+          <li class="kees"><a href="#que-es">¿Qué es?</a></li>
+          <li><img src="./images/gobiernodecolombia.png" alt=""></li>
+          <li><a href="#entrega">Entrega</a></li>
+          <li><a href="#consulta"><button>Consultar</button></a></li>
+        </ul>
+      </nav>
+
+      <div class="main-part">
+        <div class="main-left"  id="consulta">
+          <div class="main-form">
+            <h1>Consulta tu estado del Ingreso <br> Solidario</h1>
+            <span>Por favor ingresa tus datos personales para revisar el estado de entrega de tu ingreso</span>
+            <div class="conteiner-bajito">
+              <form action="" class="form-container"> 
+                <label for="">Tipo de Documento</label>
+                <select name="" id="" class="seleccion-form">
+                  <option value="" selected hidden disabled class="seleccionado">Cédula de Ciudadania</option>
+                  <option value="">Cédula de Ciudadania</option>
+                  <option value="">Tarjeta de Identidad</option>
+                  <option value="">Cédula Extranjera</option>
+                  <option value="">Pasaporte</option>
+                </select>
+                <label for="">Número de Documento</label>
+                <input type="text">
+                <label for="">Primer Nombre</label>
+                <input type="text">
+                <label for="">Primer Apellido</label>
+                <input type="text">
+                <label for="">Fecha Expedición del Documento</label>
+                <input type="date" name="" id="">
+                <label for="">Teléfono Móvil</label>
+                <input type="number" name="" id="">
+                <button class="boton-form">Consultar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="main-right">
+          <div class="main-info">
+            <span class="info-title">Ingreso Solidario</span>
+            <span class="info-info">
+              <p>Debido a la situación generada por el COVID-19,</p> 
+              <p>el gobierno nacional aportará a las familias más afectadas</p> 
+              <p>y que no pertenezcan a ningún programa social,</p> 
+              <p>un subcidio por $160.000</p> 
+            </span>
+            <button class="boton-info">Conocer más</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="que-es-container" id="que-es">
+        <header class="que-es-title">¿Qué es el Ingreso Solidario?</header>
+        <div class="left-que-es">
+          <div class="info-1">
+            <p>Es un esquema mediante el cual se entrega una</p>
+            <p>transferencia monetaria en favor de los hogare</p>
+            <p>en situación de pobreza y vulnerabilidad que</p>
+            <p>no sean beneficiarios de programas sociales del Estado.</p>
+          </div>
+          <div class="info-2">
+            <p>Los hogares en condición de pobreza</p>
+            <p>y vulnerabilidad, afectados en sus</p>
+            <p>ingresos como consecuencia de la pandemia del coronavirus</p>
+            <p>, que no hagan parte de los programas sociales</p>
+            <p>"Familias en Acción","Colombia Mayor","</p>
+            <p>Jóvenes en Acción" y "Devolución del IVA"</p>
+            <p>podrán acceder a esta medida social</p>
+          </div>
+          <a href="#entrega" class="que-es-link">
+            <p >Conocer las etapas de entrega</p>
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+        </div>
+        <div class="right-que-es">
+          <img src="./images/Drop.png" alt="img-drop" >
+        </div>
+      </div>
+
+      <div class="container-pagos" id="entrega"> 
+        <header class="entrega-title">Etapas de Entrega</header>
+        <div class="etapa1">
+          <span class="etapa-title">Etapa 1</span>
+          <h2 class="etapa-info">Desde el 7 de Abril</h2>
+        </div>
+        <div class="etapa2">
+          <span class="etapa-title">Etapa 2</span>
+          <h2 class="etapa-info">9 de Abril al 18 de Abril</h2>
+        </div>
+        <div class="etapa3">
+          <span class="etapa-title">Etapa 3</span>
+          <h2 class="etapa-info">18 de Abril al 25 de Abril</h2>
+        </div>
+        <header class="bancos-title">Bancos Autorizados</header>
+        <div class="bancos-container">
+          <img src="./images/Bancamia.png" alt="" class="img-1" height="200">
+          <img src="./images/logo-bancolombia.png" alt="" class="img-2" height="180">
+          <img src="./images/CajaSocial.png" alt="" class="img-3">
+          <img src="./images/Movii.png" alt="" class="img-4">
+          <img src="./images/DaviPlata.png" alt="" class="img-5">
+        </div>
+        <a href="#preguntas" class="preguntas-frecuentes">
+          <p>Preguntas Frecuentes</p>
+          <i class="fa-solid fa-angle-down"></i>
+        </a>
+      </div>
+
+      <div class="preguntas-frecuentes-container" id="preguntas">
+        <h2 class="preguntas-title">Preguntas Frecuentes</h2>
+        <div class="preguntas-sub-container">
+          <div class="circulo">1</div>
+          <h2 class="title-except">Ya había salido como beneficiario en la primera fase y ahora no aparezco
+             en el listado de beneficiarios ¿Es decir, ya no recibiré el beneficio?</h2>
+          <div class="preguntas-info">
+              <p>Estamos actualizando el listado de beneficiarios que recibieron el giro.</p>
+              <p>Si encontró su nombre en la primera etapa y está plenamente</p>
+              <p>identificado, no ha perdido su beneficio.</p>
+          </div>
+
+          <div class="circulo">2</div>
+          <h2>¿Por qué no aparezco ahora en el listado de ingresosolidario.prosperidadsocial.gov.co</h2>
+          <div class="preguntas-info">
+            <p>Estamos actualizando el listado de beneficiarios que recibieron el giro.</p>
+            <p>Si encontró su nombre en la primera etapa y está plenamente</p>
+            <p>identificado, no ha perdido su beneficio.</p>
+          </div>
+          <a class="ver-mas" href="#3">
+            Ver más
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+
+
+          <div class="circulo" id="3">3</div>
+          <h2>¿Qué debo hacer porque me llegó el mensaje de que soy beneficiario y no he recibido el pago?</h2>
+          <div class="preguntas-info">
+            <p>Si usted fue informado de que es beneficiario del programa mediante un mensaje de texto</p>
+            <p>enviado por la entidad financiera la cual tiene una cuenta o depósito activo,</p>
+            <p>comuníquese con esa entidad financiera para averiguar cómo acceder a los recursos del Ingreso Solidario.</p>
+            <p>Si usted no tiene una cuenta o depósito con el sistema financiero, y es elegido</p>
+            <p>dentro del program Ingreso Solidario, pronto recibirá un mensaje con</p>
+            <p>las instrucciones para hacer la apertura de una cuenta digital</p>
+          </div>
+
+          <div class="circulo">4</div>
+          <h2 class="title-except">Consulté en la página web y soy beneficiario, pero aún <br>
+            no me han llamado ni he recibido mensaje de texto ¿Qué debo hacer?
+          </h2>
+          <div class="preguntas-info">
+            <p>Si usted encontró su nombre y cédula en la base de beneficiarios y no ha recibido un mensaje de texto, significa que hace parte</p>
+            <p>de un ciclo posterior de pagos. Durante esta etapa, las entidades financieras se contactarán con usted</p>
+            <p>para darle las indicaciones de cómo recibir el giro o hacer la apertura de un depósito simplificado a través de su celular</p>
+          </div>
+          <a class="ver-mas" href="#5">
+            Ver más
+            <i class="fa-solid fa-angle-down"></i>
+          </a>
+
+          <div class="circulo" id="5">5</div>
+          <h2>¿Qué debemos hacer los que somos beneficiarios, pero no tenemos celular o cambiamos de número?</h2>
+          <div class="preguntas-info">
+            <p>Prosperidad Social está trabajando con diferentes organizaciones</p>
+            <p>y fuentes de datos para ubicarlo y contactarlo.</p>
+            <p>Lo invitamos a consultar periódicamente la página.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contactenos-container">
+        <div class="contactenos">
+          <h2>¿Tienes más preguntas?</h2>
+          <p>Por favor no dudes en contactarnos para poderte dar la información que necesites</p>
+          <a href="#contacto">Contáctenos</a>
+        </div>
+      </div>
+
+      <footer class="footer-part">
+        <div class="left-footer">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Prosperidad Social</p>
+          <p>Carrera 7 No.27 - 18 / Bogotá D.C., Colombia</p>
+          <p>Código Postal: 110311</p>
+          <p>Horario de Atención: 8:00 a.m. - 2:00p.m</p>
+        </div>
+        <div class="mid-footer">
+          <img src="./images/logo_footer.png" alt="">
+          <div class="icon-container">
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+          </div>
+         
+        </div>
+        <div class="right-footer" id="contacto">
+          <i class="fa-solid fa-phone"></i>
+          <p>Linea Gratuita Nacional: 01-8000-951100</p>
+          <p>Línea de atención Paga (1) 518 8811,</p>
+          <p>Conmmutador: (57+1) 514 2060</p>
+          <p>ingreso.solidario@prosperidadsocial.gov.co</p>
+        </div>
+      </footer>
+    </main>
+</body>
+
+<script src="https://kit.fontawesome.com/7b038fe20c.js" crossorigin="anonymous"></script>
+</html>
